@@ -61,9 +61,9 @@ Using any <button> tag such as below will automatically turn it into a jQuery UI
 <button>Add</button>
 ```
 
-If you desire more options, some classes are defined to give any button its associating icon. There is a full list of icon and classes available for use after the following explanation.
+If you desire more options, some classes are defined to give any button its associating icon.
 
-Calling the following function will accomplish this:
+Calling the following function will load the associated icon by class when the button is initialized:
 ```javascript
 loadButtonStyling();
 ```

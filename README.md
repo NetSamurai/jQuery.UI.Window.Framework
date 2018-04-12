@@ -2,7 +2,7 @@
 
 A simple framework that extends the jQuery UI dialog API to allow simple creation, modification, and deletion of dialogs that act as interactive windows.
 
-**Required HTML <div> per Window**
+**Required HTML &lt;div&gt; Window**
 
 ```html
 <div id="window_div_test"></div>
@@ -93,7 +93,7 @@ Here is a full list of classes included:
 | wrenchButton | ui-icon-wrench |
 
 
-#Auto Load Functionality
+**Auto Load Functionality**
 
 This will implement automation of styling (see above), datepicker (see below), and auto input focus automatically on page load.
 
@@ -103,7 +103,7 @@ $( document ).ready(function() {
 });
 ```
 
-**The Datepicker**
+**Datepicker**
 
 The following class is needed on an <input> to initialize the datePicker on load.
 ```html

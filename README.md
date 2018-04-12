@@ -42,7 +42,7 @@ hideWindow ( 'window_div_test' );
 // with parameters
 showWindow ( id );
 // another example
-changeDialogSize ( 'window_div_test' );
+showWindow ( 'window_div_test' );
 ```
 
 **Resizing Windows**
@@ -61,21 +61,17 @@ Using any <button> tag such as below will automatically turn it into a jQuery UI
 <button>Add</button>
 ```
 
-If you desire more options, some classes are defined to give any button its associating icon. 
+If you desire more options, some classes are defined to give any button its associating icon. There is a full list of icon and classes available for use after the following explanation.
 
-Ensure that the "loadButtonStyling" function is loaded when the page loads to accomplish this.
+Calling the following function will accomplish this:
 ```javascript
-$( document ).ready(function() {
-    loadButtonStyling();
-});
+loadButtonStyling();
 ```
 
 In the example below, a plus jQuery UI icon matching your theme is shown next to "Add".
 ```html
 <button class="addButton">Add</button>
 ```
-
-Here is a full list of classes included:
 
 | Class  | jQuery Icon |
 | ------------- | ------------- |
@@ -95,7 +91,7 @@ Here is a full list of classes included:
 
 **Auto Load Functionality**
 
-This will implement automation of styling (see above), datepicker (see below), and auto input focus automatically on page load.
+This will implement automation of styling (see above), datepicker (see below), and auto input focus (see below) automatically on page load.
 
 ```javascript
 $( document ).ready(function() {
@@ -105,14 +101,14 @@ $( document ).ready(function() {
 
 **Datepicker**
 
-The following class is needed on an <input> to initialize the datePicker on load.
+The following class is needed on an &lt;input&gt; to initialize the datePicker on load.
 ```html
 <input type="text" class="datePicker" value="" />
 ```
 
 **Input Auto Focus**
 
-Add the following data attribute to the input tag to automatically start the cursor there.
+Add the following data attribute to the &lt;input&gt; tag to automatically start the user's cursor inside.
 
 ```html
 <input type="text" data-input-focus="true" value="" />

@@ -2,7 +2,9 @@
 
 A simple framework that extends the jQuery UI dialog API to allow simple creation, modification, and deletion of dialogs that act as interactive windows as well as other functionality.
 
-**Required HTML &lt;div&gt; Window**
+**HTML Markup Per Window**
+
+To create any window in this framework, it must have a parent &lt;div&gt; container with an id. It can be initialized like so:
 
 ```html
 <div id="window_div_test"></div>

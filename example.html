@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+        <style>
+        .jq-window {
+            display: none;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div id="testModalWindow" class="jq-window">This content should be replaced by an $ajax request. <button onclick="hideWindow('testModalWindow');">Close $ajax Window</button></div>
+        <div id="testNonModalWindow" class="jq-window">This content should be replaced by an $ajax request. <button onclick="hideWindow('testNonModalWindow');">Close $ajax Window</button></div>
+
+        <button onclick="openWindow('testModalWindow', 'Modal Window', 250, 500, true, true, true);">Open Modal Window</button>
+        <br /><br />
+        <button onclick="openWindow('testNonModalWindow', 'Non-Modal Window', 250, 500, false, true, true);">Open Non-Modal Window</button>
+
+        <br /><br />
+        <button class="addButton">addButton</button><br />
+        <button class="submitButton">submitButton</button><br />
+        <button class="cancelButton">cancelButton</button><br />
+        <button class="deleteButton">deleteButton</button><br />
+        <button class="backButton">backButton</button><br />
+        <button class="switchButton">switchButton</button><br />
+        <button class="resetButton">resetButton</button><br />
+        <button class="reportButton">reportButton</button><br />
+        <button class="playButton">playButton</button><br />
+        <button class="scriptButton">scriptButton</button><br />
+        <button class="gearButton">gearButton</button><br />
+        <button class="wrenchButton">wrenchButton</button><br />
+        <br />
+
+        <input data-input-focus="true" value="Focus this field automatically..." /><br />
+        <input type="text" class="datePicker" value="10/10/2019" /> <-- to change to your own calendar icon path, change buttonImage:"calendar.jpg" in jquery.ui.window.framework.min.js
+
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="jquery.ui.window.framework.min.js"></script>
+
+        <script>
+        $( document ).ready(function() {
+            loadWindow();
+        });
+        </script>
+    </body>
+
+</html>

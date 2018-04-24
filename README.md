@@ -1,6 +1,6 @@
 # jquery.ui.window.framework.js
 
-A simple framework that extends the jQuery UI dialog API to allow simple creation, modification, and deletion of dialogs that act as interactive windows as well as other functionality.
+A simple framework that extends the jQuery UI dialog API to allow simple creation, modification, and deletion of dialogs that act as interactive windows as well as other functionality. <a href="http://htmlpreview.github.io/?https://github.com/ravenmyst/jQuery.UI.Window.Framework/blob/master/example.html" target="_blank">Example here.</a>
 
 **HTML Markup Per Window**
 

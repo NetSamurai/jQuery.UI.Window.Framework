@@ -71,7 +71,7 @@ function loadWindow() {
 	  minDate: "-100y",
 	  buttonText: "Select a date",
 	  showOn: "button",
-	  buttonImage: "/templates/img/blue_calendar.png",
+	  buttonImage: "calendar.jpg",
 	  buttonImageOnly: true,
 	  showButtonPanel: true,
 	  closeText: 'Cancel'
